@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PIZZA | FORGOTPASSWORD</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dokdo|Permanent+Marker" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body id="forgotPassBody">
+    
+        <ul class="nav d-flex flex-row justify-content-around">
+                                
+                <img class = "ListLogo" src = "img/PizzaLogo.jpg" height="80">
+                <li><i class="fas fa-pizza-slice"></i></li>
+                <li><i class="fas fa-hamburger"></i></li>
+                <li><i class="fas fa-cocktail"></i></li>
+                <li><i class="fas fa-utensils"></i></li>
+                <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle mt-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Settings
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#" id="logoutBtn">Sign Out</a>
+                          <a class="dropdown-item" href="ForgotPass.html">Change Password</a>
+                          <a class="dropdown-item" href="ListPizza.html">Pizza List</a>
+                          <a class="dropdown-item" href="ingredients.html">Ingredients List</a>
+                        </div>
+                      </div>
+                </ul>       
+                
+     
+                <div class="container mb-5">
+                
+                        <div class="col-auto" id ="brand">  
+                        <p class="col-auto" id="brandad">Pizza Zizza</p>
+                    <p class="col-auto mr-5" id="brandCatchline">Made with Love...</p>
+                    <p class="col-auto"id="descr"><marquee>Handmade Pan Pizza and gluten free pizza without any extra charge and made with love.</marquee></p>
+                    </div> 
+                <div class="borders">
+                
+                     
+                
+                </div>
+                  <div class = "forms">
+                        <form class="mt-5" id = "AddPizzaForm">
+
+                                <div class="form-group row">
+                                  <label for="input" class="col-sm-5 col-form-label-lg text-white" >Your First Name:</label>
+                                  <div class="col-sm-6">
+                                    <h3 id="fNameFPass" class="text-white ml-5"></h3>
+                                  </div>
+                                </div>
+                
+                                <div class="form-group row">
+                                  <label for="input" class="col-sm-5 col-form-label-lg text-white" >Your Last Name:</label>
+                                  <div class="col-sm-6">
+                                    <h3 id="lNameFPass" class="text-white ml-5"></h3>
+                                  </div>
+                                </div>
+                
+                                <div class="form-group row">
+                                        <label for="input" class="col-sm-6 col-form-label-lg text-white">New Password:</label> 
+                                        <div class="col-sm-6">
+                                          <input type="password" class="form-control-lg" id="myInput" placeholder="New Password">
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                            <label for="input" class="col-sm-6 col-form-label-lg text-white">Repeat Password:</label>
+                                            <div class="col-sm-6">
+                                              <input type="password" class="form-control-lg" id="MYInput" placeholder="Repeat Password">
+                                            </div>
+                                          </div>      
+                                        
+                                          <input type="checkbox" id="checkBox" ><h7>Show Password</h7>
+                
+                                          <div class="form-group">
+                                                    <button class="btn btn-primary btn-lg btn-block text-white col-sm-12 ml-3 mt-3" id="resetPasswordBtn"> SUBMIT</>
+                                            </div> 
+                
+                                    </form>
+                                    
+                      </div>
+
+             </div>
+       
+</body>
+<script src="js/index.js"></script>
+</html>

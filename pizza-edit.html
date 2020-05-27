@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dokdo|Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body >
+    
+        <ul class="nav d-flex flex-row justify-content-around" style="box-shadow: 10px 10px 5px rgb(43, 43, 43);">
+                                
+                <img class = "ListLogo" src = "img/PizzaLogo.jpg" height="80">
+                <li><i class="fas fa-pizza-slice"></i></li>
+                <li><i class="fas fa-hamburger"></i></li>
+                <li><i class="fas fa-cocktail"></i></li>
+                <li><i class="fas fa-utensils"></i></li>
+                <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle mt-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Settings
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#" id="logoutBtn">Sign Out</a>
+                          <a class="dropdown-item" href="profile.html">Change Password</a>
+                          <a class="dropdown-item" href="pizzas.html">Pizza List</a>
+                          <a class="dropdown-item" href="ingredients.html">Ingredients List</a>
+                        </div>
+                      </div>
+                </ul>         
+
+
+    <div class="container">
+           
+        <div class="col-auto" id ="brand">  
+        <p class="col-auto" id="brandad">Pizza Zizza</p>
+    <p class="col-auto mr-5" id="brandCatchline">Made with Love...</p>
+    <p class="col-auto"id="descr"><marquee>Handmade Pan Pizza and gluten free pizza without any extra charge and made with love.</marquee></p>
+    </div> 
+<div class="borders">
+
+     
+
+</div>
+
+<div class="ListPizza">
+        <p  id=PizzaListTit>Add new pizza</p>
+        <a class="btn btn-dark btn-block text-white mb-3" id="AddPizza" href="ListPizza.html">BACK TO PIZZA LIST</a>
+        </div>
+  <div class = "forms">
+        <form class="mt-5" id = "AddPizzaForm">
+        <div class="form-group row">
+                <label for="input" class="col-sm-5 col-form-label-lg text-white">Name</label>
+                <div class="col-sm-7">
+                  <input type="string" class="form-control-lg" id="name" placeholder="Pizza Name">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="input" class="col-sm-5 col-form-label-lg text-white">Price</label>
+                <div class="col-sm-7">
+                  <input type="string" class="form-control-lg" id="price" placeholder="Pizza Price">
+                </div>
+              </div>
+
+              <fieldset class="form-group">
+                      <div class="row">
+                              <legend class="col-form-label-lg col-sm-5 pt-0 text-white">Size</legend>
+                              <div class="col-sm-7 col-form-label-lg">
+                      <select>
+                              <option value="small">Small</option>
+                              <option value="medium">Medium</option>
+                              <option value="large">Large</option>
+                              <option value="extra-large">Extra-Large</option>
+                            </select>
+                            </div>
+                            </div>
+                      
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                          <div class="row">
+                                  <legend class="col-form-label-lg col-sm-5 pt-0 text-white">Gluten Free</legend>
+                                  <div class="col-sm-7 col-form-label-lg">
+                          <select>
+                                  <option value="small">True</option>
+                                  <option value="medium">False</option>
+                      
+                                </select>
+                                </div>
+                                </div>
+                          
+                        </fieldset>
+
+                        <div class="form-group row">
+                              <label for="input" class="col-sm-5 col-form-label-lg text-white">Image Url</label>
+                              <div class="col-sm-7">
+                                <input type="string" class="form-control-lg" id="price" placeholder="Pizza Image Url">
+                              </div>
+                            </div>    
+                            
+                            <div class="form-group">
+                                  <a href="ingredients.html" class="btn btn-primary btn-lg btn-block text-white col-sm-12 ml-3" id="SavePizza"> SAVE PIZZA</a>
+                          </div> 
+                          </form>
+
+    </div>
+    </div>
+   
+    
+    <footer class="fixed-bottom bg-light p-2" id="foot" >
+            © 2018 Copyright: PizzaZizza.com. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
+
+

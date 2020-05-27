@@ -1,0 +1,225 @@
+
+/*///////   CARD    ////////*/
+
+.card{
+    width: 500px;
+    border: none;
+    background-color: transparent;  
+    top: 0; 
+    bottom: 0;
+    left: 0;    
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+.card-footer {
+    background-color: transparent;
+    padding: 0.75rem 1.25rem;
+}
+
+.card,.card-footer,.card-header{
+    background-color: transparent;
+} 
+
+
+/*///////  ICONS  /////////*/
+
+.nav .fas{
+    font-size: 3rem;
+    border-top: 1rem solid transparent;
+    color: #525252;
+} 
+
+.fa-user, .fa-envelope, .fa-phone, .fa-lock,.fa-key{
+    color: black;
+} 
+
+.fa-edit{
+    margin-right: 2rem;
+    font-size: 1.4rem;
+}
+
+.fa-trash{
+    font-size: 1.4rem;
+}
+
+.fa-pizza-slice:before {
+   color: #ffc429;
+}
+
+.fa-hamburger:before {
+    color: #d35329;
+}
+
+.fa-cocktail:before {
+    color: yellowgreen;
+}
+
+.fa-utensils:before {
+    color: grey;
+}
+
+#soIcon{
+    font-size: 1rem;
+}
+
+.fa-arrow-down{
+    font-size: 1rem;
+}
+
+
+/*////////  NAVBAR ///////*/
+
+.nav{
+    border-top: 1rem solid white;
+    background-color: white;
+    border: none;
+}  
+
+
+/*///////    FOOTER  ///////*/
+
+footer{
+    text-align: center;
+}
+
+#foot{
+    text-align: center;
+}
+
+
+/*////////  FONTS  ///////*/
+h3{
+     color: white;
+}   
+
+h5{
+     color: white;
+}
+h7{
+    color: white;
+    margin-left: 1rem;
+}
+
+/*///////    DIV    ////////*/
+
+.forms{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/Patterns-free-2013-jan-11.jpg);
+    border-radius: 25px;
+}
+
+.borders{
+    background-image: url(../img/gradient-wallpaper-26050-26735-hd-wallpapers-1024x640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgba(0,0,0,0.4);
+    background-image: none;
+}
+
+.table{
+    border-top: 6px solid #212529;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border-radius: 25px;
+}
+
+ .ListPizza{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "d r";                    
+ }
+
+ #PizzaListTit{
+     grid-area: d;
+ }
+
+#AddPizza{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px grey;
+    grid-area: r;
+    position: absolute;
+    right: 12%;
+}
+
+#signOut{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: white;
+    width: 12%;
+    margin: 10px;
+}
+
+#PizzaListTit{
+      font-size: 3rem;
+      font-family: 'Josefin Sans', sans-serif;
+      border-top: 1px solid gray;
+      color: black;
+ }
+
+#AddPizzaForm{
+    background-image: url(../img/Patterns-free-2013-jan-11.jpg);
+    border-radius: 25px;
+}
+
+
+/* //////////////////  BRAND ADVERTISE   ///////////////////// */
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+
+    }
+  }
+
+  #brandad{
+    font-size: 4rem;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    animation: blinker 2s linear infinite;
+}
+
+#brandCatchline{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5rem;
+    color:black;
+    animation: blinker 2s linear infinite;
+    display: flex;
+    justify-content: center;
+} 
+
+#descr{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#ffc429;
+    font-size: 1.5rem;
+} 
+
+#brand{
+    margin-top: 2rem;
+    width:100%;
+    border-radius: 25px;   
+    background-image: url(../img/Pizza-Wallpaper-pizza-6333981-1024-768.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#fNameFPass,#lNameFPass{
+   font-size: 2rem;
+}
+ 
